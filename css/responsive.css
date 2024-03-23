@@ -1,0 +1,18 @@
+@media (width<=1024px) {
+  .cards {
+    width: 90%;
+  }
+}
+@media (width<=992px) {
+  .cards {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width<=768px) {
+  .cards {
+    width: 90%;
+    grid-template-columns: 100%;
+  }
+}
